@@ -1,0 +1,65 @@
+# Linux build files
+*.o
+*.lo
+*.la
+Makefile
+.libs
+.deps
+
+# Editor temporary files
+*.swp
+
+# Windows directories
+w32deps
+w64deps
+build
+
+# Windows build files
+*.dll
+*.pdb
+*.exe
+*.exp
+*.lib
+
+# Windows Visual Studio stuff
+*.user
+DarkRadiant.opensdf
+DarkRadiant.sdf
+gtkrc
+testsuite.ilk
+
+# VS 2012
+/winbuild
+/tools\msvc2012/ipch
+/tools\msvc2012/Debug
+*.psess
+*.suo
+/tools\msvc2010/ipch
+/tools\msvc2012/ipch
+*.ipch
+*.dirstamp
+/tools/innosetup/*.7z
+*.vspx
+*.bak
+*.opendb
+tools/msvc2015/DarkRadiant.VC.db
+*.iobj
+*.ipdb
+
+# Mac OS X Stuff
+.DS_Store
+xcuserdata
+Makefile.in
+/config.h.in
+/configure
+/ltmain.sh
+/aclocal.m4
+/install/*.zip
+/tools/msvc/.vs
+/tools/msvc/DarkRadiant.VC.db
+/tools/innosetup/*.zip
+/tools/lwo_analyse/.vs
+/radiant/*.aps
+
+# Local environment stuff
+merge
